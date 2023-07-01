@@ -1,0 +1,42 @@
+/* input {
+    box-sizing: 100px;
+    border: box 20px;
+  } */
+body {
+  background-image: linear-gradient(to right,rgba(12, 230, 52, 0.831),rgb(246, 84, 184));
+}
+
+input{
+  /* margin:  auto; 
+    display: block;   */
+   height: 40px;
+   width: 300px;
+   opacity: .6;
+   border-bottom-color: #024b02;
+   font-size: 20px;
+  }   
+  
+  .search-box{
+      width: 270px;
+ 
+      margin: 350px auto 0;
+      
+  }
+  
+  /* div{
+      box-sizing: border-box;
+  } */
+
+  .suggestions ul{
+      border-top:10px;
+      padding: 15px 10px
+  }
+   .suggestions ul li{
+      list-style: none;
+      padding: 15px 10px;
+      cursor: pointer;
+   }
+
+   ul li:hover{
+      background-color: lightpink;
+   }
